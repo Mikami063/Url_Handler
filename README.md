@@ -9,7 +9,8 @@ convert special characters in your web url to readable format, without breaking 
 
 [icon set build by iconutil]
 
-'''mkdir url_handler.iconset
+```
+mkdir url_handler.iconset
 
 sips -z 16 16     32x32-pixel-art.png --out url_handler.iconset/icon_16x16.png
 sips -z 32 32     32x32-pixel-art.png --out url_handler.iconset/icon_16x16@2x.png
@@ -22,11 +23,14 @@ sips -z 512 512   32x32-pixel-art.png --out url_handler.iconset/icon_256x256@2x.
 sips -z 512 512   32x32-pixel-art.png --out url_handler.iconset/icon_512x512.png
 sips -z 1024 1024 32x32-pixel-art.png --out url_handler.iconset/icon_512x512@2x.png
 
-iconutil -c icns url_handler.iconset'''
+iconutil -c icns url_handler.iconset
+```
 
 [app file build by pyinstall]
 
-'''pyinstaller --windowed --onefile --name Url_Handler --icon=url_handler.icns url_handler.py'''
+```
+pyinstaller --windowed --onefile --name Url_Handler --icon=url_handler.icns url_handler.py
+```
 
 Example Usage
 
