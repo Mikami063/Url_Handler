@@ -5,6 +5,8 @@
 
 convert special characters in your web url to readable format, without breaking the url
 
+.app excutable MacOS file in release
+
 Example Usage
 
 https://www.anime-sharing.com/threads/help-with-installing-playing-fraternite-hd-remaster-%E3%83%95%E3%83%A9%E3%83%86%E3%83%AB%E3%83%8B%E3%83%86hd%E3%83%AA%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC.1266537/
